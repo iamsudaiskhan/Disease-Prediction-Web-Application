@@ -30,38 +30,6 @@ Built using Scikit-learn, Flask/FastAPI, and a responsive frontend, this project
 * CSS3 – Styling & responsive layout
 * JavaScript – Dynamic interactions
 
----
-
-## Project Structure
-
-```
-disease-prediction-app/
-│
-├── app.py                        # Main Flask/FastAPI app
-├── model/
-│   ├── train_model.py            # Model training script
-│   ├── disease_model.pkl         # Trained ML model
-│   └── symptom_encoder.pkl       # Encoders for symptom features
-│
-├── static/
-│   ├── css/
-│   │   └── style.css             # Custom styles
-│   ├── js/
-│   │   └── script.js             # Frontend interactivity
-│   └── images/                   # App images and assets
-│
-├── templates/
-│   └── index.html                # Main web page
-│
-├── data/
-│   └── training_data.csv         # Dataset for model training
-│
-├── requirements.txt              # Project dependencies
-└── README.md                     # Documentation
-```
-
----
-
 ## Supported Diseases
 
 1. Diabetes
