@@ -114,6 +114,15 @@ python model/train_model.py
 
 ---
 
+Note on node_modules
+The node_modules folder is not included in this repository because it is very large and automatically generated when installing dependencies.
+If you clone this project, you can easily restore all required Node.js modules by running:
+npm install
+This command will download and install all dependencies listed in the package.json file inside the project folder.
+If you are using Yarn instead, you can use:
+yarn install
+After installation, the node_modules folder will be created automatically.
+
 ## License
 
 This project is licensed under the MIT License.
